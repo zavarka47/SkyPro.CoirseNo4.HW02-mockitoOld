@@ -1,11 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="32825a80-26b2-46b0-8cf5-519d04b251cf" name="Changes" comment="" />
+    <list default="true" id="32825a80-26b2-46b0-8cf5-519d04b251cf" name="Changes" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/src/hw_mockito/Dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hw_mockito/Dao/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hw_mockito/Model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hw_mockito/Service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hw_mockito/Service/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hw_mockito/Test/UserDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hw_mockito/Test/UserServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework_4.2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/homework_4.2.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2P5Yc75dLexUUZ9tk6lerVZlWCZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -18,9 +51,86 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
+    "last_opened_file_path": "C:/Users/Zavarka_47/Documents/Java Education/Course_No.4/dependency/opentest4j-1.2.0.jar",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="hw_mockito.Service" />
+      <recent name="hw_mockito.Test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.UserServiceTest.checkUserExistShouldReturnTrue">
+    <configuration name="UserDaoTest.findAllUsers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="homework_4.2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hw_mockito.Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hw_mockito.Test" />
+      <option name="MAIN_CLASS_NAME" value="hw_mockito.Test.UserDaoTest" />
+      <option name="METHOD_NAME" value="findAllUsers" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserDaoTest.getUserByNameReturnUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="homework_4.2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hw_mockito.Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hw_mockito.Test" />
+      <option name="MAIN_CLASS_NAME" value="hw_mockito.Test.UserDaoTest" />
+      <option name="METHOD_NAME" value="getUserByNameReturnUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest.checkUserExistShouldReturnTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="homework_4.2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hw_mockito.Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hw_mockito.Test" />
+      <option name="MAIN_CLASS_NAME" value="hw_mockito.Test.UserServiceTest" />
+      <option name="METHOD_NAME" value="checkUserExistShouldReturnTrue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UserServiceTest.checkUserExistShouldReturnTrue" />
+        <item itemvalue="JUnit.UserDaoTest.findAllUsers" />
+        <item itemvalue="JUnit.UserDaoTest.getUserByNameReturnUser" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -29,7 +139,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682748489675</updated>
+      <workItem from="1682748490796" duration="8349000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1682748754154</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1682748754154</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
 </project>
